@@ -1,28 +1,34 @@
-namespace Nivelamento {
+namespace Leveling {
 
-    class Pessoa {
-        double altura;
-        bool H = true;
+    class Person {
+        double height;
+        enum Sex{
+         M,
+         F
+        }
 
 
         static void Main(string[] args) {
 
-            List<Pessoa> pessoa = new List<string>();
+            List<Person> person = new List<Person>();
+
+            Sex inputSex= Sex.M | Sex.F;
+                Console.WriteLine(inputSex);
 
             for (int i = 0; i < 15; i++) {
-                Console.Write("Informe sua altura: ");
-                double altura = Double.Parse(Console.ReadLine());
-                Console.Write("Informe seu gênero (H ou M): ");
-                string genero = String.Parse(Console.ReadLine());
-                pessoa.Add(altura, genero);
+                Console.Write("Input your height: ");
+                double height = Double.Parse(Console.ReadLine());
+                Console.Write("Input your sex (M or F): ");
+                string sex = String.Parse(Console.ReadLine());
+                person.Add(height, sex);
 
-                string[] pessoa = {"altura", "genero"};
-                foreach (Pessoa i in pessoa) {
+                string[] person = {"height", "sex"};
+                foreach (Person i in person) {
                     Console.WriteLine(i);
                 }
             
-            if (pessoa.genero == "H") {
-                for (Pessoa = )
+            if (person.sex == "M") {
+                for (Person = )
                 }
             }
         }
