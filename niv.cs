@@ -12,7 +12,7 @@ namespace Leveling {
 
             List<Person> person = new List<Person>();
 
-            Sex inputSex= Sex.M | Sex.F;
+            Sex inputSex = Sex.M | Sex.F;
                 Console.WriteLine(inputSex);
 
             for (int i = 0; i < 15; i++) {
