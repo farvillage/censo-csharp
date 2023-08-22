@@ -1,36 +1,57 @@
+using System;
+
 namespace Leveling {
+    enum Sex {
+        M,
+        F
+    }
 
-    class Person {
+    public class Person {
         double height;
-        enum Sex{
-         M,
-         F
-        }
+        double maxHeight;
+        double minHeight;
+        double averageHeight;
+        int women;
+        int men;
+    }
 
-
+    class Program {
         static void Main(string[] args) {
+            List<Person> personList = new List<Person>();
 
-            List<Person> person = new List<Person>();
-
-            Sex inputSex = Sex.M | Sex.F;
-                Console.WriteLine(inputSex);
+            Sex inputSex = Sex.M | Sex.F;
+            Console.WriteLine(inputSex);
 
             for (int i = 0; i < 15; i++) {
                 Console.Write("Input your height: ");
                 double height = Double.Parse(Console.ReadLine());
                 Console.Write("Input your sex (M or F): ");
-                string sex = String.Parse(Console.ReadLine());
-                person.Add(height, sex);
+                string sex = Console.ReadLine();
 
-                string[] person = {"height", "sex"};
-                foreach (Person i in person) {
-                    Console.WriteLine(i);
-                }
-            
-            if (person.sex == "M") {
-                for (Person = )
-                }
+                personList.Add(new Person { height = height });
+
+              if (minHeight >= height) {
+                Console.WriteLine("");
+              }
+              
+              if (maxHeight > height) {
+                Console.WriteLine("Cursilho");
+              }  
+
+              if (Sex.ToLower("F")) {
+                women++;
+              }
+
+              if (Sex.ToLower("M")) {
+                men++;
+                averageHeight += height;
+                averageHeight = averageHeight / men;
+              }
             }
-        }
+
+          Console.ReadLine("This is the current amount of" + women);
+          Console.ReadLine("The maximum height was" + maxHeight);
+          Console.ReadLine("The mininum height was" + minHeight);
+          Console.ReadLine("The average height was" + averageHeight);
     }
 }
