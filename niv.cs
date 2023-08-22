@@ -35,7 +35,7 @@ namespace Leveling {
               }
               
               if (maxHeight > height) {
-                Console.WriteLine("Cursilho");
+                Console.WriteLine("");
               }  
 
               if (Sex.ToLower("F")) {
