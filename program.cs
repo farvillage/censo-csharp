@@ -1,68 +1,46 @@
-using System;
+using System
 
-namespace Leveling 
+namespace Censo 
 {
-    enum Sex 
+  class Program
+  {
+    static void Main(string args[])
     {
-        M,
-        F
-    }
-
-    public class Person 
-    {
-        double height;
-        double maxHeight;
-        double minHeight;
-        double averageHeight;
-        int women;
-        int men;
-    }
-
-    class Program 
-    {
-      
-        static void Main(string[] args)
+      for(int i = 0; i < 15; i++)
       {
-            List <Person> personList = new List<Person>();
+        Console.WriteLine("Input your sex (M or F): ");
+        string.inputSex = Console.ReadLine();
+        
+        Console.WriteLine("Input your height (cm): ");
+        string inputHeight = Console.ReadLine();
 
-            Sex inputSex = Sex.M | Sex.F;
-            Console.WriteLine(inputSex);
+        string height = int.Parse(inputHeight);
+      }
 
-            for (int i = 0; i < 15; i++) 
-            {
-                Console.WriteLine("Input your height: ");
-                double height = Double.Parse(Console.ReadLine());
-                Console.WriteLine("Input your sex (M or F): ");
-                string sex = Console.ReadLine();
-
-                personList.Add(new Person { height = height });
-
-              if (minHeight >= height) 
-              {
-                Console.WriteLine("The minimum height is" + minHeight);
-              }
-              
-              if (maxHeight > height) 
-              {
-                Console.WriteLine("The max height is" + maxHeight);
-              }  
-
-              if (Sex.ToLower("F")) 
-              {
-                women++;
-              }
-
-              if (Sex.ToLower("M")) 
-              {
-                men++;
-                averageHeight += height;
-                averageHeight = averageHeight / men;
-              }
-            }
-
-          Console.ReadLine("This is the current amount of" + women);
-          Console.ReadLine("The maximum height was" + maxHeight);
-          Console.ReadLine("The mininum height was" + minHeight);
-          Console.ReadLine("The average height was" + averageHeight);
+      if()
     }
+  }
+
+  class Person
+  {
+    int maxHeight;
+    int minHeight;
+    int averageHeight;
+    int women;
+    int men;
+
+    public Person(int maxHeight, int minHeight, int averageHeight, int women, int men);
+    {
+    this.maxHeight = maxHeight;
+    this.minHeight = minHeight;
+    this.averageHeight = averageHeight;
+    this.women = women;
+    this.men = men;
+    }
+
+    public void Input();
+    {
+      Console.WriteLine("")
+    }
+  }
 }
