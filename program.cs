@@ -37,10 +37,5 @@ namespace Censo
     this.women = women;
     this.men = men;
     }
-
-    public void Input();
-    {
-      Console.WriteLine("")
-    }
   }
 }
