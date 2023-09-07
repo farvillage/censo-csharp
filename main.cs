@@ -7,19 +7,16 @@ using System;
     
     for(int i = 0; i < 3; i++)
     {
-      string femaleCounter;
-      string inputSex;
       Console.WriteLine("Input your sex (M or F): ");
       string inputSex = Console.ReadLine();
-      inputSex = femaleCounter;
-      count1++;
         
       Console.WriteLine("Input your height (cm): "); 
       string inputHeight = Console.ReadLine();
 
       int input = int.Parse(inputHeight);
+      double averageMen = 0.0;
       
-      Person person = new Person(inputSex, inputHeight);
+      Person person = new Person(inputSex, input);
       int maxHeight = 0;
       int minHeight = 0;
       
@@ -33,13 +30,17 @@ using System;
         {
           minHeight = person.height;
         }
-        if(person.sex == "f")
+        
+        if (averageMen = averageMen / person.height)
         {
-          int count =+ 1;
+          Console.WriteLine("The average height is" + person.height);
         }
 
-      Console.WriteLine("The average height is" + person.height); //altura média
-      Console.WriteLine("The quantity of women is " + ); //quantas mulheres
+        if(person.sex == "f")
+        {
+          person.sex 1++;
+          Console.WriteLine("The quantity of women is " + person.sex);
+        }
       }
     }
    }
