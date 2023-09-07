@@ -1,0 +1,14 @@
+/Users/farvillage/censo-csharp/bin/Debug/netcoreapp6.0/main
+/Users/farvillage/censo-csharp/bin/Debug/netcoreapp6.0/main.deps.json
+/Users/farvillage/censo-csharp/bin/Debug/netcoreapp6.0/main.runtimeconfig.json
+/Users/farvillage/censo-csharp/bin/Debug/netcoreapp6.0/main.dll
+/Users/farvillage/censo-csharp/bin/Debug/netcoreapp6.0/main.pdb
+/Users/farvillage/censo-csharp/obj/Debug/netcoreapp6.0/main.GeneratedMSBuildEditorConfig.editorconfig
+/Users/farvillage/censo-csharp/obj/Debug/netcoreapp6.0/main.AssemblyInfoInputs.cache
+/Users/farvillage/censo-csharp/obj/Debug/netcoreapp6.0/main.AssemblyInfo.cs
+/Users/farvillage/censo-csharp/obj/Debug/netcoreapp6.0/main.csproj.CoreCompileInputs.cache
+/Users/farvillage/censo-csharp/obj/Debug/netcoreapp6.0/main.dll
+/Users/farvillage/censo-csharp/obj/Debug/netcoreapp6.0/refint/main.dll
+/Users/farvillage/censo-csharp/obj/Debug/netcoreapp6.0/main.pdb
+/Users/farvillage/censo-csharp/obj/Debug/netcoreapp6.0/main.genruntimeconfig.cache
+/Users/farvillage/censo-csharp/obj/Debug/netcoreapp6.0/ref/main.dll

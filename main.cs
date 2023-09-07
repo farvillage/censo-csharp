@@ -4,17 +4,22 @@ using System;
  {
    public static void Main(string[] args)
    {
+    
     for(int i = 0; i < 3; i++)
     {
+      string femaleCounter;
+      string inputSex;
       Console.WriteLine("Input your sex (M or F): ");
       string inputSex = Console.ReadLine();
+      inputSex = femaleCounter;
+      count1++;
         
       Console.WriteLine("Input your height (cm): "); 
       string inputHeight = Console.ReadLine();
 
       int input = int.Parse(inputHeight);
       
-      Person person = new Person(inputSex, input);
+      Person person = new Person(inputSex, inputHeight);
       int maxHeight = 0;
       int minHeight = 0;
       
@@ -33,8 +38,8 @@ using System;
           int count =+ 1;
         }
 
-      Console.WriteLine(" "); //altura média
-      Console.WriteLine(" "); //quantas mulheres
+      Console.WriteLine("The average height is" + person.height); //altura média
+      Console.WriteLine("The quantity of women is " + ); //quantas mulheres
       }
     }
    }

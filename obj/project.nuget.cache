@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "JCT6RttZdDZf5BpIq6SdtWy0+KRoryJrRsXwPtT/QkVFOzIjVpssvl72OBVrf2ldxh9xBxhPeRzFOLriR6AWnA==",
+  "success": true,
+  "projectFilePath": "/Users/farvillage/censo-csharp/main.csproj",
+  "expectedPackageFiles": [
+    "/Users/farvillage/.nuget/packages/microsoft.netcore.app.ref/6.0.21/microsoft.netcore.app.ref.6.0.21.nupkg.sha512",
+    "/Users/farvillage/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.21/microsoft.aspnetcore.app.ref.6.0.21.nupkg.sha512",
+    "/Users/farvillage/.nuget/packages/microsoft.netcore.app.host.osx-x64/6.0.21/microsoft.netcore.app.host.osx-x64.6.0.21.nupkg.sha512"
+  ],
+  "logs": []
+}
