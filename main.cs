@@ -12,7 +12,7 @@ public class Program
     int maxHeight = 0;
     int minHeight = 300;
 
-    for (int i = 0; i < 3; i++)
+    for (int i = 0; i < 15; i++)
     {
       Console.WriteLine("Input your sex (M or F): ");
       string inputSex = Console.ReadLine();
